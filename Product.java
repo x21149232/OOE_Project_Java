@@ -21,9 +21,21 @@ public class Product {
 		throw new UnsupportedOperationException();
 	}
 
-	public void getPrescriptionReq() {
-		// TODO - implement Product.getPrescriptionReq
-		throw new UnsupportedOperationException();
+	//Getters
+  public int getProductID(){
+      return productID;
+  }
+
+  public float getProductPrice(){
+      return productPrice;
+  }
+
+  public String getProductDesc(){
+      return productDesc;
+  }
+
+	public Boolean getPrescriptionReq() {
+		return prescriptionReq;
 	}
 
 }
