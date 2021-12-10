@@ -21,6 +21,11 @@ public class Product {
 		throw new UnsupportedOperationException();
 	}
 
+	// Setter
+  public void setPrescriptionReq(boolean prescriptionReq){
+      this.prescriptionReq = prescriptionReq;
+  }
+
 	//Getters
   public int getProductID(){
       return productID;
