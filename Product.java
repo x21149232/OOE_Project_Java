@@ -26,6 +26,18 @@ public class Product {
       this.prescriptionReq = prescriptionReq;
   }
 
+	public void setProductID(int productID){
+        this.productID = productID;
+    }
+
+    public void setProductPrice(float productPrice){
+        this.productPrice = productPrice;
+    }
+
+    public void setProductDesc(String productDesc){
+        this.productDesc = productDesc;
+    }
+
 	//Getters
   public int getProductID(){
       return productID;
